@@ -9,17 +9,16 @@
   <title>CrossOver</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="./static/css/bootstrap-4.4.1.css">
+  <!-- <link rel="stylesheet" href="./static/css/bootstrap-4.4.1.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
-  
-  
-  
-  
+
+  <link rel="stylesheet" href="./static/css/slider.css">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
@@ -270,15 +269,15 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
+<!-- <section class="section">
+  <div class="container is-max-desktop"> -->
 
     <!-- Results. -->
-    <div class="columns is-centered ">
+    <!-- <div class="columns is-centered ">
       <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Qualitative Results - Cross-Modal Scene Retrieval</h2>
+        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Qualitative Results - Cross-Modal Scene Retrieval</h2> -->
 
-        <div class="content has-text-centered">
+        <!-- <div class="content has-text-centered">
           <p style="margin-top: 30px">
             Given a scene in query modality <em>floorplan</em>, we aim to retrieve the same scene in target modality <em>point cloud</em>.
           </p>
@@ -293,6 +292,51 @@
     </div>
 
   </div>
+</section> -->
+
+<section class="section">
+  <section class="slider-wrapper">
+    <button class="slide-arrow slide-arrow-prev">
+                &#8249;
+    </button>
+    <button class="slide-arrow slide-arrow-next">
+                &#8250;
+    </button>
+
+    <div class="container is-max-desktop">
+      <div class="columns is-centered ">
+        <div class="column is-full-width">
+
+          <h2 class="title is-3 has-text-centered" style="margin-top: -5px">Qualitative Results - Cross-Modal Scene Retrieval</h2>
+
+          <div class="content has-text-centered">
+            <p style="margin-top: 30px">
+              Given a scene in query modality <em>floorplan</em>, we aim to retrieve the same scene in target modality <em>point cloud</em>.
+            </p>
+          </div>
+
+          <ul class="slides-container">
+              <li class="slide">
+                  <table style="margin-left:auto;margin-right:auto">
+                    <img src="./static/images/results/Scene_Ret_1.png" class="center">
+                  </table>
+              </li>
+              <li class="slide">
+                  <table style="margin-left:auto;margin-right:auto">
+                    <img src="./static/images/results/Scene_Ret_2.png" class="center">
+                  </table>
+              </li>
+              <li class="slide">
+                <table style="margin-left:auto;margin-right:auto">
+                  <img src="./static/images/results/Scene_Ret_Fail.png" class="center">
+                </table>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
 </section>
 
 
@@ -326,12 +370,13 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
             This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
             We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
-            The website is modified from <a href="https://nicer-slam.github.io/">NICER-SLAM</a>. 
+            The image comparison with pagination is from <a href="https://collaborativevideodiffusion.github.io/">Collaborative Video Diffusion</a>. 
           </p>
         </div>
       </div>
           <p></p>
         </div>
+        <script type="text/javascript" src="script.js"></script>
       </div>
 </footer>
 
