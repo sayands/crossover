@@ -217,9 +217,6 @@
   </div>
 </section>
 
-
-
-
 <section class="section">
   <div class="container is-max-desktop">
 
@@ -228,7 +225,7 @@
       <div class="column is-full-width">
         <h2 class="title is-3" style="margin-top: -20px">Method</h2>
 
-        <img src="./static/videos/method_overview.gif" class="center">
+        <img src="./static/images/method_overview.png" class="center">
         <div class="content has-text-justified">
           <p style="margin-top: 30px">
             Given a scene and its instances represented across different modalities, namely, images, point clouds, cad meshes, text referrals and floorplans, 
@@ -248,6 +245,55 @@
       </div>
     </div>
     <!--/ Animation. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="margin-top: -20px">Cross-Modal Inference Pipeline</h2>
+
+        <img src="./static/images/inference.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            During inference for scene retrieval, we use our unified dimensionality encoders. Given point cloud as the query modality that represents the scene, we extract a
+             feature vector F3D in the shared embedding space. To find the most similar 2D floorplan from a database, we locate the closest feature F2D and 
+             retrieve the corresponding scene.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Results. -->
+    <div class="columns is-centered ">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Qualitative Results - Cross-Modal Scene Retrieval</h2>
+
+        <div class="content has-text-centered">
+          <p style="margin-top: 30px">
+            Given a scene in query modality <em>floorplan</em>, we aim to retrieve the same scene in target modality <em>point cloud</em>.
+          </p>
+        </div>
+
+        <div class="b-dics" style="width: 1000px; font-weight: 600;">
+          <img src="./static/images/results/Scene_Ret_1.png" class="center">
+          <img src="./static/images/results/Scene_Ret_2.png" class="center">
+        </div>
+
+      </div>
+    </div>
 
   </div>
 </section>
