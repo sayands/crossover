@@ -6,11 +6,8 @@
   <!-- Basic Page Needs
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>CrossOver</title>
-  <link rel="icon" href="./static/images/Logo.png" />
-
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>CVPR '25 - CrossOver</title>
 
   <!-- Mobile Specific Metas
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -24,15 +21,14 @@
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="icon" href="https://img.icons8.com/bubbles/100/t-shirt.png">
   <link rel="stylesheet" href="css/footable.standalone.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
-  <!-- Favicon
-         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="static/images/Logo.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/logos/Logo-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/logos/Logo-16x16.png">
 
   <!-- Google icon -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -140,7 +136,7 @@
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="header-container">
-      <img src="static/images/Logo.png" alt="CrossOver Logo" class="logo">
+      <img src="static/images/logos/Logo.png" alt="CrossOver Logo" class="logo">
       <h1 class="title is-1 publication-title"><b>CrossOver</b></h1>
     </div>
     <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0; font-size: 40px;" align="center"><b>3D Scene Cross-Modal Alignment</b></h2>
@@ -287,7 +283,9 @@
     <div class="section">
       <h5><b>Cross-Modal Inference Pipeline</b></h5>
       <figure>
-        <img src="static/images/inference.png" style="width:100%"></img>
+        <center>
+        <img src="static/images/inference.png" style="width:50%"></img>
+        </center>
         <!-- <br> -->
       </figure>
       <p align="justify">
@@ -343,59 +341,6 @@
       </p>
     </footer>
 
-
-    <!-- </div> -->
-
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/footable.min.js"></script>
-
-    <script type="text/javascript">
-      jQuery(function ($) {
-        $('.table').footable();
-      });
-    </script>
-    <script>
-
-      document.addEventListener('DOMContentLoaded', domReady);
-
-      function domReady() {
-        new Dics({
-          container: document.querySelectorAll('.b-dics')[0],
-          textPosition: 'right',
-          linesOrientation: "vertical",
-          arrayBackgroundColorText: ["#FFFFFF", "#000000"],
-          arrayColorText: ["#000000", "#FFFFFF"],
-          linesColor: "rgb(0,0,0)"
-        });
-        new Dics({
-          container: document.querySelectorAll('.b-dics')[1],
-          textPosition: 'right',
-          linesOrientation: "vertical",
-          arrayBackgroundColorText: ["#FFFFFF", "#000000"],
-          arrayColorText: ["#000000", "#FFFFFF"],
-          linesColor: "rgb(0,0,0)"
-        });
-        new Dics({
-          container: document.querySelectorAll('.b-dics')[2],
-          textPosition: 'right',
-          linesOrientation: "vertical",
-          arrayBackgroundColorText: ["#FFFFFF", "#000000"],
-          arrayColorText: ["#000000", "#FFFFFF"],
-          linesColor: "rgb(0,0,0)"
-        });
-        new Dics({
-          container: document.querySelectorAll('.b-dics')[3],
-          textPosition: 'right',
-          linesOrientation: "vertical",
-          arrayBackgroundColorText: ["#FFFFFF", "#000000"],
-          arrayColorText: ["#000000", "#FFFFFF"],
-          linesColor: "rgb(0,0,0)"
-        });
-      }
-    </script>
-
-    <!-- End Document
-         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
